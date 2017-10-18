@@ -1,6 +1,6 @@
 //var katzDeli = [];
 var katzDeliLine = [];
-const deliLine = ["Steven", "Blake", "Avi"];
+//const deliLine = ["Steven", "Blake", "Avi"];
 takeANumber(katzDeliLine, "Ada"); // "Welcome, Ada. You are number 1 in line."
 takeANumber(katzDeliLine, "Grace"); // "Welcome, Grace. You are number 2 in line."
 takeANumber(katzDeliLine, "Kent"); // "Welcome, Kent. You are number 3 in line."
@@ -29,8 +29,6 @@ function nowServing(array){
   if(array.isEmpty()){
     return "There is nobody waiting to be served!";
   }
-  const str ="Currently serving "+ array.shift();
+  const str = "Currently serving "+ array.shift();
   return str;
-
-
 }
