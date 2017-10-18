@@ -20,6 +20,6 @@ takeANumber(katzDeliLine, "Kent"); // "Welcome, Kent. You are number 3 in line."
 
 function takeANumber(katzDeliLine,name){
   katzDeliLine.push(name);
-  var str = "Welcome, "+ katzDeliLine[katzDeliLine.length] +". You are number "+ katzDeliLine.length +" in line."
+  var str = "Welcome, "+ katzDeliLine[(katzDeliLine.length)-1] +". You are number "+ katzDeliLine.length +" in line."
   return str;
 }
