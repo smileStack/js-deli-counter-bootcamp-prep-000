@@ -39,7 +39,7 @@ function currentLine(array){
     return "The line is currently empty.";
   }
   var strn = "The line is currently: ";
-  for(let i in array){
+  for(var i = 0; i<array.length;i++){
     strn = i+". "+ array[i]+", ";
   }
   return strn;
