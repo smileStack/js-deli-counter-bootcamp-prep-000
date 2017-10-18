@@ -31,6 +31,6 @@ function nowServing(array){
   }
   const str ="Currently serving "+ array.shift();
   return str;
-  
+
 
 }
