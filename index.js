@@ -43,6 +43,7 @@ function currentLine(array){
   for(var i = 0; i<array.length;i++){
     if(i==array.length-1){
       strn += (i+1)+". "+ array[i];
+      return strn;
     }
     strn += (i+1)+". "+ array[i]+", ";
   }
