@@ -30,6 +30,6 @@ function nowServing(array){
     return "There is nobody waiting to be served!";
   }
   const str = "Currently serving "+ array.shift() +".";
-  
+
   return str;
 }
