@@ -45,7 +45,7 @@ function currentLine(array){
       strn = (i+1)+". "+ array[i];
     }
     strn = (i+1)+". "+ array[i]+", ";
-      console.log((i+1)+". "+ array[i]+", ");
   }
+  console.log(strn);
   return strn;
 }
