@@ -41,8 +41,8 @@ function currentLine(array){
   var strn = "The line is currently: ";
   console.log(array);
   for(var i = 0; i<array.length;i++){
-    strn = i+". "+ array[i]+", ";
-      console.log(i+". "+ array[i]+", ");
+    strn = (i+1)+". "+ array[i]+", ";
+      console.log((i+1)+". "+ array[i]+", ");
   }
   return strn;
 }
