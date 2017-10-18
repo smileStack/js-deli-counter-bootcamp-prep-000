@@ -42,7 +42,7 @@ function currentLine(array){
   console.log(array);
   for(var i = 0; i<array.length;i++){
     strn = i+". "+ array[i]+", ";
-    
+      console.log(i+". "+ array[i]+", ");
   }
   return strn;
 }
